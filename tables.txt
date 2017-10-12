@@ -1,0 +1,71 @@
+tbl_static
+================================
+id   autoincrement primary key
+pagename varchar 255
+pagetitle varchar 255
+pagedesc text
+metaname varchar 255
+metadesc text
+metakeyword text
+
+tbl_news
+===============================
+id autoincrement primary key
+news_title varchar 255
+news_desc text
+author varchar 255
+added_date date
+status binary 1
+
+tbl_banner
+===============================
+id autoincrement primary key
+banner_name varchar 255
+banner_image varchar 255
+static_id int
+status binary 1
+
+tbl_config
+===============================
+id autoincrement primary key
+config_name varchar 255
+config_desc text
+config_value varchar 255
+status binary 1
+
+tbl_gallery
+===============================
+id autoincrement primary key
+photo_name varchar 255
+photo_image varchar 255
+status binary 1
+
+tbl_advert
+===============================
+id autoincrement primary key
+advert_name varchar 255
+advert_image varchar 255
+advert_desc text
+added_date date
+status binary 1
+
+
+tbl_users
+==============================
+id autoincrement primary key
+firstname varchar 255
+middlename varchar 255
+lastname varchar 255
+email varchar 255
+phone varchar 255
+location varchar 255
+image varchar 255
+natanality varchar 255
+gender varchar 255
+user_desc text
+added_date date
+status binary 1
+
+
+
+

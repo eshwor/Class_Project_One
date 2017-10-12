@@ -1,0 +1,74 @@
+/* CSS Document */
+*
+{
+margin:0px auto;
+padding:0px;
+}
+
+body
+{
+margin:0px auto;
+padding:0px;
+background:url(../images/bg.jpg);
+}
+
+#loginDiv
+{
+background:#FF9900;
+width:450px;
+line-height:30px;
+padding-left:20px;
+color:#FFFFFF;
+font-size:20px;
+}
+
+.tableLogin
+{
+width:450px;
+}
+
+.tableLogin tr td
+{
+border-bottom:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+}
+
+input[type='text'],input[type='password']
+{
+padding:3px;
+}
+
+input[type='submit']
+{
+border:none;
+padding:2px;
+background:#6699FF;
+margin-left:5px;
+color:#FFFFFF;
+}
+
+input[type='submit']:hover
+{
+background:#FFCC99;
+}
+
+#siteTitle
+{
+text-align:center;
+color:#666666;
+margin-top:150px;
+margin-bottom:30px;
+font-size:36px;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#messageDiv
+{
+color:#FF0000;
+background:#FFFFCC;
+font-size:16px;
+text-align:center;
+text-decoration:blink;
+}
+
+
